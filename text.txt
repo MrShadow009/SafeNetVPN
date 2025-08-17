@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------------------
+SECTION 1: VPN SETUP STEPS
+--------------------------------------------------------------------------------------------Step 1: Choosing a Free VPN Service
+- ProtonVPN (Free, Switzerland-based, focuses on privacy, no ads).
+- Windscribe (Free plan: 10 GB/month, supports multiple locations).
+Rational decision: I chose ProtonVPN because of its reputation, unlimited free usage on 3 
+countries, and strong privacy policy.
+
+...
+
+Step 2: Downloading the VPN Client
+- Went to official ProtonVPN website.
+- Chose Windows client installer (can be done for Linux/Mac as well).
+- Verified checksum to ensure integrity of download (important for cybersecurity).
+
+...
+
+Step 3: Installing the VPN
+- Standard installation wizard.
+- Logged in with newly created ProtonVPN credentials.
+
+... (explain with 10–15 lines each step)
+
+--------------------------------------------------------------------------------------------
+SECTION 2: VERIFYING VPN FUNCTIONALITY
+--------------------------------------------------------------------------------------------
+- Before VPN: Checked IP via whatismyipaddress.com (India ISP).
+- After connecting to VPN server (Germany server), IP address changed successfully.
+- Confirmed traffic encryption by running Wireshark capture (optional).
+- Noted browsing speed difference (~10–20% slower).
+
+...
+
+--------------------------------------------------------------------------------------------
+SECTION 3: ENCRYPTION & PRIVACY FEATURES
+-------------------------------------------------------------------------------------------
+VPN ENCRYPTION:
+- ProtonVPN uses AES-256 encryption.
+- Key exchange via 4096-bit RSA handshake.
+- Forward secrecy enabled through Perfect Forward Secrecy (PFS).
+
+VPN TUNNELING PROTOCOLS:
+- Features OpenVPN (UDP/TCP) and WireGuard (fast, modern).
+- Comparison: OpenVPN = widely supported, slower; WireGuard = faster, lean codebase.
+
+...
+
+--------------------------------------------------------------------------------------------
+SECTION 4: BENEFITS & LIMITATIONS OF VPN
+--------------------------------------------------------------------------------------------
+Benefits:
+- Masks IP address, hides browsing activity.
+- Protects data from ISPs and eavesdroppers on public Wi-Fi.
+- Helps bypass censorship and geo-blocks.
+
+Limitations:
+- Slower internet connection due to encryption overhead.
+- Not complete anonymity - VPN provider can still see traffic.
+- Some websites block known VPN IP ranges.
+- Free plans may restrict speed, servers, or data usage.
+--------------------------------------------------------------------------------------------
+SECTION 5: CONCLUSION
+--------------------------------------------------------------------------------------------
+This task enhanced understanding of:
+- VPN setup process.
+- Encryption and tunneling protocols.
+- Privacy trade-offs in cybersecurity tools.
+- Practical comparison of browsing experience with and without VPN.
+
+Final Thought:
+VPN is a crucial privacy tool, but users must remain aware of its limitations and combine 
+it with other security practices like strong passwords, two-factor authentication, and 
+awareness against phishing attacks.
+
+--------------------------------------------------------------------------------------------
+END OF REPORT
+--------------------------------------------------------------------------------------------
