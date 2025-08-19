@@ -13,7 +13,7 @@
 ---
 
 ## 📂 Repository Contents
-- `text.txt` → Detailed 500-line report with step-by-step VPN setup.
+- `text.txt` → Detailed with step-by-step VPN setup.
 - `README.md` → This overview file.
 
 ---
